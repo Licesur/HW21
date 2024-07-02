@@ -1,6 +1,7 @@
 package badCode.l;
 
-class Bird {
+class Bird implements Flyable{
+    @Override
     public void fly() {
         // лететь
     }

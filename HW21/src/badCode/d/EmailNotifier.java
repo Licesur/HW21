@@ -1,7 +1,8 @@
 package badCode.d;
 
-class EmailNotifier {
-    void sendEmail(String recipient, String message) {
+class EmailNotifier implements Notify{
+    @Override
+    public void sendNotify(String recipient, String message) {
         // отправить email уведомление
     }
 }

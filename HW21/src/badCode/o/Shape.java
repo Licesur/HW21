@@ -1,6 +1,6 @@
 package badCode.o;
 
-class Shape {
+public class Shape {
     private String type;
     private double radius;
     private double width;
